@@ -54,7 +54,7 @@ const SideBar = () => {
               width={28}
               height={28}
             />
-            <span className="self-center text-xl font-bold hidden lg:block">
+            <span className="self-center text-xl font-bold hidden lg:block text-customTeal">
               Chessify
             </span>
           </Link>

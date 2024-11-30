@@ -15,6 +15,9 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        customTeal: '#00887A', // Add the custom color here
+      },
     },
   },
   darkMode: "class",
