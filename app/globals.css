@@ -50,3 +50,19 @@ body::-webkit-scrollbar {
   display: none; 
   }
 }
+
+
+.bg-chess-pattern {
+  background-image: url("/chess-bgs.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+@media (max-width: 640px) {
+  .bg-chess-pattern {
+    background-image: url("/chess-bg-mobile.jpg"); /* Use a smaller, optimized image */
+    background-size: cover;
+    background-position: top;
+  }
+}
